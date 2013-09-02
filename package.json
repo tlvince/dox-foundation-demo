@@ -1,0 +1,27 @@
+{
+  "name": "dox-foundation-demo",
+  "version": "0.1.0",
+  "description": "An interactive demo of dox-foundation using Express",
+  "main": "server.js",
+  "scripts": {
+    "install": "./node_modules/.bin/dox-foundation --source node_modules/express --target public",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "dox",
+    "demo"
+  ],
+  "author": "Tom Vincent",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~3.3.7",
+    "dox-foundation": "~0.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tlvince/dox-foundation-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tlvince/dox-foundation-demo/issues"
+  }
+}
